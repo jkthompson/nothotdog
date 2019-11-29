@@ -7,7 +7,7 @@ Explore machine learning deployment with [TensorFlow] and the ['not hotdog'] use
 
 ![not hotdog](./NotHotdog.jpg)
 
-## [View of NBViewer](http://nbviewer.ipython.org/github/jkthompson/notHotdog/blob/master/notHotdog.ipynb)
+## [View notebook](https://github.com/jkthompson/nothotdog/blob/master/notHotdog.ipynb)
 
 ## Run Locally Using Docker
 1. Install [Docker](https://hub.docker.com/search/?offering=community&type=edition)
