@@ -1,13 +1,13 @@
-# Not Hotdog ... In Production with Tensorflow and Tensorflow Extended (TFX)
+# Not Hotdog ... In Production with TensorFlow and TensorFlow Extended (TFX)
 
-Explore machine learning deployment with [tensorflow] and the ['not hotdog'] use case from HBO's Sillicon Valley].
+Explore machine learning deployment with [TensorFlow] and the ['not hotdog'] use case from HBO's Silicon Valley].
 
 ['not hotdog']: https://www.youtube.com/watch?v=ACmydtFDTGs
-[tensorflow]: https://www.tensorflow.org/
+[TensorFlow]: https://www.tensorflow.org/
 
 ![not hotdog](./NotHotdog.jpg)
 
-## [View of NBViewer](http://nbviewer.ipython.org/github/jkthompson/nothotdog/blob/master/nothotdog.ipynb)
+## [View of NBViewer](http://nbviewer.ipython.org/github/jkthompson/notHotdog/blob/master/notHotdog.ipynb)
 
 ## Run Locally Using Docker
 1. Install [Docker](https://hub.docker.com/search/?offering=community&type=edition)
@@ -24,7 +24,7 @@ Explore machine learning deployment with [tensorflow] and the ['not hotdog'] use
   	```bash
 	docker build -t tfx .
 	```
-	alternatively, download the image from docker hub
+	alternatively, download the image from Docker hub
 	```bash
 	# optional - if build dosn't work
 	docker pull jkt2/tfx
@@ -39,3 +39,5 @@ Explore machine learning deployment with [tensorflow] and the ['not hotdog'] use
 	```bash
 	docker run -it -p 8888:8888 -v "$PWD":/tf jkt2/tfx
 	```
+If sucessful, you will see:
+![screenshot](./NotHotdog.jpg)
