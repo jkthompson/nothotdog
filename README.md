@@ -39,5 +39,3 @@ Explore machine learning deployment with [TensorFlow] and the ['not hotdog'] use
 	```bash
 	docker run -it -p 8888:8888 -v "$PWD":/tf jkt2/tfx
 	```
-If sucessful, you will see:
-![screenshot](./NotHotdog.jpg)
